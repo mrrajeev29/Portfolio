@@ -1,0 +1,27 @@
+import React from "react";
+import './intro.css';
+import {Link} from 'react-scroll'
+import btnImg from '../../assets/hireme.png'
+import bg from'../../assets/Screenshot 2023-10-15 160611.png'
+import btn1 from '../../assets/resume.png'
+
+const Intro=()=>{
+    return(
+        <section id="intro">
+            <div className="introContent">
+                <span className="hello">Hello,</span>
+                <span className="introText">I'm<span className="introName"> Rajeev Ranjan</span><br/> Website Designer <span>and<br/>Data Scientist</span></span>
+                <p className="introPara">I am a skilled web designer and Data Scientist with experience in creating<br/>visual appealing and user-friendly websites.</p>
+                <table>
+                    <tr>
+                        <td><Link activeClass="active" to='contact' spy={true} smooth={true} offset={-100} duration={500}><button className="btn"> <img src={btnImg} alt=" Hire me" className="btnImg"/>Hire me</button></Link>   <a href="https://drive.google.com/drive/u/0/folders/1STMQviklU5M9d-bNNCY1rwf-3HZ5em2u" target="_blank"><button className="btn1"><img src={btn1} alt="Resume" className="resume"/>&emsp;Resume</button></a></td>
+                    </tr>
+                </table>
+                
+            </div>
+            <img src={bg} alt="profile" className="bg"/>
+        </section>
+    )
+}
+
+export default Intro;
