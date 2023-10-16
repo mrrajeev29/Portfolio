@@ -2,7 +2,7 @@ import React from "react";
 import './intro.css';
 import {Link} from 'react-scroll'
 import btnImg from '../../assets/hireme.png'
-import bg from'../../assets/Screenshot 2023-10-15 160611.png'
+import bg from'../../assets/Screenshot_2023-10-15_160611-removebg-preview.png'
 import btn1 from '../../assets/resume.png'
 
 const Intro=()=>{
