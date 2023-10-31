@@ -4,9 +4,15 @@ import {Link} from 'react-scroll'
 import btnImg from '../../assets/hireme.png'
 import bg from'../../assets/Screenshot_2023-10-15_160611-removebg-preview.png'
 import btn1 from '../../assets/resume.png'
+import sample from './video2.mp4'
+
 
 const Intro=()=>{
     return(
+        <>
+        <video autoPlay loop muted className="vido">
+        <source src={sample} type="video/mp4"/>
+        </video>
         <section id="intro">
             <div className="introContent">
                 <span className="hello">Hello,</span>
@@ -21,6 +27,7 @@ const Intro=()=>{
             </div>
             <img src={bg} alt="profile" className="bg"/>
         </section>
+        </>
     )
 }
 
