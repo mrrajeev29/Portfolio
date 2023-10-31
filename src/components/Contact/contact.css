@@ -96,11 +96,11 @@
     margin: 0 0.75rem;    
 }
 @media screen and (max-width:720px) {
-    .name,.email,.msg{
+    .name,.email{
         font-size: medium;
-        width: 50%;
+        width: 70%;
         max-width: 40rem;
-        margin: 0.5rem 8rem;
+        margin: 0.5rem 4.5rem;
         justify-content: center;
         padding: 0.5rem 1rem;
         color: white;
@@ -109,5 +109,18 @@
         background-color: rgb(40,40,40);
         text-align: center;
     }
-    
+    .msg{
+        font-size: medium;
+        width: 70%;
+        height: 8vh;
+        max-width: 40rem;
+        margin: 0.5rem 4.5rem;
+        justify-content: center;
+        padding: 0.5rem 1rem;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        background-color: rgb(40,40,40);
+        text-align: center;
+    }
 }
