@@ -11,7 +11,7 @@
     z-index: -1;
     top: 0;
     margin-left: -16rem;
-    width:120rem;
+    width:100%;
     height: 100vh;
     opacity: 0.1;
 }
