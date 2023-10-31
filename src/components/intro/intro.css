@@ -6,6 +6,15 @@
     overflow: hidden;
     position: relative;
 }
+.vido{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    margin-left: -16rem;
+    width:120rem;
+    height: 100vh;
+    opacity: 0.1;
+}
 
 .bg{
     position: absolute;
