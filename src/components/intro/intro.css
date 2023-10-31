@@ -92,9 +92,8 @@
     }
 }
 
-
-@media  screen and (max-width:480px) {
+@media  screen and (max-width:720px) {
     .bg{
-        right:-10vw
+        display: none;
     }
 }
