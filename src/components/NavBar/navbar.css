@@ -40,6 +40,13 @@
     border-radius: 2rem;
     justify-content: center;
     cursor: pointer;
+    height: 3rem;
+    width: 10rem;
+}
+
+.desktopMenuBtn:hover {
+    background:palegreen;
+    color: white;
 }
 .desktopMenuImg{
     object-fit: cover;
