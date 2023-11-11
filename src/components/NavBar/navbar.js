@@ -21,7 +21,7 @@ const Navbar=()=>
             <button className="desktopMenuBtn" onClick={()=>{
                 document.getElementById('contact').scrollIntoView({behavior:'smooth'});
             }}>
-                <img src={contactimg} alt="" className="desktopMenuImg"/>Contact me
+                <i class="fa fa-envelope-o"></i>&emsp;Contact me
             </button>
 
             <img src={menu} alt="Menu" className="mobMenu" onClick={()=>setShowMenu(!showMenu)}/>
