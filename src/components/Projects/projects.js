@@ -20,7 +20,7 @@ const Projects=()=>{
                 <h4 className="proTit">Calculator Using React </h4>
                 <h4 className="proDesc">A basic Arithmetic Calculator using MERN.</h4>
                 <a href="https://github.com/mrrajeev29/Calculator-Using-React" target="_blank"><button type="button" className="Pbtn"><i class="fa fa-github"></i>&ensp;Learn More</button></a>
-                <a href="https://calculator-using-react-psi.vercel.app/" target="_blank"><button type="button" className="Pbtn"><i class="fa fa-external-link">&ensp;</i>Open</button></a>
+                <a href="https://calculator-using-react-jet.vercel.app/" target="_blank"><button type="button" className="Pbtn"><i class="fa fa-external-link">&ensp;</i>Open</button></a>
             </div>
             <div className="pro2">
                 <h4 className="proTit">Elephant Image Classification</h4>
