@@ -50,6 +50,10 @@
     cursor: pointer;
 }
 
+.workBtn:hover{
+    background: palegreen;
+    color: white;
+}
 
 @media screen and(max-width:585px) {
     .worksImg{
