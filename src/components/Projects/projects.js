@@ -22,7 +22,7 @@ function Hide()
     document.getElementById("switch1").style.display="flex";
     document.getElementById("switch2").style.display="none";
     document.getElementById("Dswitch").style.marginTop="0.35rem";
-    document.getElementById("Dswitch").style.marginLeft="0.3rem"
+    document.getElementById("Dswitch").style.marginLeft="0.2rem"
 }
 
 
