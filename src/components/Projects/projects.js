@@ -90,7 +90,7 @@ const Projects=()=>{
             </div>
             <button type="button" onClick={Display} className="Abtn" id="switch1"><div id="Dswitch">&ensp;<i class="fa fa-arrow-circle-down" ></i>&ensp;More&ensp;</div></button>
             <button type="button" onClick={Hide} className="Abtn" style={{display:"none"}} id="switch2"><div style={{marginTop:"0.35rem",marginLeft:"0.8rem"}}>&ensp;<i class="fa fa-arrow-circle-up"></i>&ensp;Less&ensp;</div></button>
-            <a href="https://github.com/mrrajeev29" target="_blank"><button type="button" className="Abtn">&emsp;<i class="fa fa-github"></i>&ensp;All&ensp;&ensp;</button></a>      
+            <a href="https://github.com/mrrajeev29" target="_blank"><button type="button" className="Abtn">&emsp;<i class="fa fa-github"></i>&ensp;All&ensp;&emsp;</button></a>      
         </section>
     )
 }
