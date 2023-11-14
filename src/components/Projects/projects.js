@@ -88,9 +88,9 @@ const Projects=()=>{
                 <a href="https://github.com/mrrajeev29/Covid_Data_Visualization/blob/main/Worldometer_data_Visualization.ipynb" target="_blank"><button type="button" className="Pbtn"><i class="fa fa-external-link">&ensp;</i>Explore</button></a>
             </div>
             </div>
-            <button type="button" onClick={Display} className="Abtn" id="switch1"><div id="Dswitch"><i class="fa fa-arrow-circle-down" ></i>&ensp;More</div></button>
-            <button type="button" onClick={Hide} className="Abtn" style={{display:"none"}} id="switch2"><div style={{marginTop:"0.35rem",marginLeft:"0.8rem"}}><i class="fa fa-arrow-circle-up"></i>&ensp;Less</div></button>
-            <a href="https://github.com/mrrajeev29" target="_blank"><button type="button" className="Abtn"><i class="fa fa-github"></i>&ensp;All</button></a>      
+            <button type="button" onClick={Display} className="Abtn" id="switch1"><div id="Dswitch"><i class="fa fa-arrow-circle-down" ></i>&ensp;More&ensp;</div></button>
+            <button type="button" onClick={Hide} className="Abtn" style={{display:"none"}} id="switch2"><div style={{marginTop:"0.35rem",marginLeft:"0.8rem"}}><i class="fa fa-arrow-circle-up"></i>&ensp;Less&ensp;</div></button>
+            <a href="https://github.com/mrrajeev29" target="_blank"><button type="button" className="Abtn"><i class="fa fa-github"></i>&ensp;All&ensp;</button></a>      
         </section>
     )
 }
