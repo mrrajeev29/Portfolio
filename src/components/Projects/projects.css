@@ -1,0 +1,42 @@
+.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Project{
+    width: 35rem;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin:10px 10px;
+    color: black;
+    text-align: center;
+}
+h1{
+    margin: 1.5rem;
+}
+.Project button{
+    background-color:black;
+    color: white;
+    border-radius: 6px;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 2rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+}
+.Project button:hover{
+    background-color: palegreen;
+    color: black;
+}
+
+
+@media screen and (max-width:1200px){
+
+    .Project{
+        width: 20rem;
+        height: auto;
+        margin: 1rem;
+    }
+}
