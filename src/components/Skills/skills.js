@@ -13,21 +13,21 @@ const Skills=()=>{
                     <img src={UIDesign} alt="UIDesign" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>Data Scientist</h2>
-                        <a href="https://github.com/mrrajeev29/Elephant_Image_Classification" className="web">Click for latest Project.</a>
+                        <a href="https://github.com/mrrajeev29/Elephant_Image_Classification" target="_blank" className="web">Click for latest Project.</a>
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={WebDesign} alt="WebDesign" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>Frontend Developer</h2>
-                        <a href="https://mrrajeev29.github.io/Vpropel-clone/" className="web">Click for latest Project.</a>
+                        <a href="https://mrrajeev29.github.io/Vpropel-clone/" target="_blank" className="web">Click for latest Project.</a>
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={AppDesign} alt="AppDesign" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>Backend Developer</h2>
-                        <a href="https://github.com/mrrajeev29/money-tracker-backend" className="web">Click for latest Project.</a>
+                        <a href="https://github.com/mrrajeev29/money-tracker-backend" target="_blank" className="web">Click for latest Project.</a>
                     </div>
                 </div>
             </div>       
