@@ -20,9 +20,9 @@ const Works=()=>
                 <img src={portfolio5} alt="" className="worksImg"/>
                 <img src={portfolio6} alt="" className="worksImg"/>
             </div>
-            <form action="https://github.com/mrrajeev29">
+            <a target="_blank" href="https://github.com/mrrajeev29">
             <button className="workBtn">My Works</button>
-            </form>
+            </a>
         </section>
     )
 }
