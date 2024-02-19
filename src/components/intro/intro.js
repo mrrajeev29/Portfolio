@@ -18,7 +18,7 @@ const Intro=()=>{
                 <p className="introPara">I am a skilled web designer and Data Scientist with experience in creating<br/>visual appealing and user-friendly websites.</p>
                 <table>
                     <tr>
-                        <td><Link activeClass="active" to='contact' spy={true} smooth={true} offset={-100} duration={500}><button className="btn"> <i class="fa fa-briefcase"></i>&emsp;Hire me</button></Link>   <a href="https://drive.google.com/drive/u/0/folders/1STMQviklU5M9d-bNNCY1rwf-3HZ5em2u" target="_blank"><button className="btn1"><i class="fa fa-file-pdf-o"></i>&emsp;Resume</button></a></td>
+                        <td><Link activeClass="active" to='contact' spy={true} smooth={true} offset={-100} duration={500}><button className="btn"> <i class="fa fa-briefcase"></i>&emsp;Hire me</button></Link>   <a href="https://drive.google.com/drive/folders/1Nid_0MDuKcxgwmtscK5EKGHutrz5y49i" target="_blank"><button className="btn1"><i class="fa fa-file-pdf-o"></i>&emsp;Resume</button></a></td>
                     </tr>
                 </table>
                 
