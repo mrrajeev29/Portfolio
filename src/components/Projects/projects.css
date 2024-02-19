@@ -3,6 +3,11 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.ProjectsBack{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .Project{
     width: 35rem;
     height: auto;
@@ -15,11 +20,6 @@
 h1{
     margin: 1.5rem;
 }
-
-.Prohead{
-    font-size: 3rem;
-    text-align: center;
-}
 .Project button{
     background-color:black;
     color: white;
@@ -31,12 +31,35 @@ h1{
     font-size: 1.2rem;
     border: none;
 }
+.MoreOpt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.MoreOpt button{
+    background-color:black;
+    color: white;
+    border-radius: 6px;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 2rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+}
+.MoreOpt button:hover{
+    background-color: palegreen;
+    color: black;
+}
 .Project button:hover{
     background-color: palegreen;
     color: black;
 }
 
-
+.Prohead{
+    font-size: 3rem;
+    text-align: center;
+}
 @media screen and (max-width:1200px){
 
     .Project{
