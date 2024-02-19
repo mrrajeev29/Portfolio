@@ -15,6 +15,7 @@ const Projects=()=>{
     return(
         <>
         <section id="project">
+        <h1 className="Prohead">My Projects</h1>
             <div className="Projects">
                 {projects.length>0 && projects.map(project=>(
                 <div className="Project">
