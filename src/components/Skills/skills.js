@@ -27,7 +27,7 @@ const Skills=()=>{
                     <img src={AppDesign} alt="AppDesign" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>Backend Developer</h2>
-                        <a href="https://github.com/mrrajeev29/Portfolio-project" className="web">Click for latest Project.</a>
+                        <a href="https://github.com/mrrajeev29/money-tracker-backend" className="web">Click for latest Project.</a>
                     </div>
                 </div>
             </div>       
