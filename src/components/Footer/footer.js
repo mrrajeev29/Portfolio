@@ -4,7 +4,7 @@ const Footer=()=>{
     return(
 
         <footer className="footer">
-            Copyright &#169; 2023 Rajeev Ranjan. All right reserved.
+            Copyright &#169; 2024 Rajeev Ranjan. All right reserved.
         </footer>
     );
 }
