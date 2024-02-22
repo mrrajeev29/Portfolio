@@ -63,6 +63,9 @@
     .skillBarText>p{
         font-size: 2vw;
     }
+    .skill{
+        width: 4rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -76,5 +79,87 @@
     }
     .skillBarText>h2{
         font-size: 5vw;
+    }
+}
+
+.skill{
+    background-color: #ddd;
+    height: 3rem;
+    margin: 3rem;
+    width:60rem;
+    display: none;
+}
+#hide{
+    height: 3rem;
+    margin: 3rem;
+    width:60rem;
+    display: none;
+}
+.py,.c,.cpp,.java,.js,.html,.css,.bs,.sql,.react,.node,.exp,.md,.hide{
+    height: 3rem;
+    text-align: center;
+}
+.py{
+    background-color: red;
+    width: 90%;
+}
+.c{
+    background-color: blue;
+    width: 95%;
+}
+.cpp{
+    background-color:green;
+    width: 85%;
+}
+.java{
+    background-color:brown;
+    width: 65%;
+}
+.js{
+    background-color:darkmagenta;
+    width: 58%;
+}
+.html{
+    background-color:blueviolet;
+    width: 85%;
+}
+.sql{
+    background-color:pink;
+    width: 50%;
+}
+.css{
+    background-color:darkorange;
+    width: 75%;
+}
+.bs{
+    background-color:darkolivegreen;
+    width: 75%;
+}
+.react{
+    background-color:darkred;
+    width: 65%;
+}
+.node{
+    background-color:maroon;
+    width: 50%;
+}
+.exp{
+    background-color:orchid;
+    width:50%;
+}
+.md{
+    background-color:royalblue;
+    width: 55%;
+}
+.sicon{
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem 4rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:720px) {
+    .skill{
+        width: 20rem;
     }
 }
