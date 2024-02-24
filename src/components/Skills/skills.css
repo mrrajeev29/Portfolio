@@ -166,3 +166,8 @@
         margin: 1rem 1rem;
     }
 }
+@media screen and (min-width:720px and max-width:1080px){
+    .skill{
+        width: 25rem;
+    }
+}
