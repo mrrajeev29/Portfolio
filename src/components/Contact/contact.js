@@ -53,11 +53,11 @@ const Contact=()=>{
                     <textarea className="msg" name="message" rows="5" placeholder="Your Message" required></textarea>
                     <button type="submit" value="send" className="submitBtn">Submit</button> 
                     <div>
-                        <a href="https://github.com/mrrajeev29" target="_blank"><img src={git} alt="Github" className="link" id="i1"/></a>
-                        <a href="https://www.facebook.com/AarabhMalhotra.29" target="_blank"><img src={fbicon} alt="Facebook" className="link"/></a>
-                        <a href="https://twitter.com/PrinceG49181050" target="_blank"><img src={twitter} alt="Twitter" className="link"/></a>
-                        <a href="https://www.instagram.com/_rajeev_on_line_/" target="_blank"><img src={ig} alt="Instagram" className="link"/></a>
-                        <a href="https://www.linkedin.com/in/rajeev-ranjan-9990b9226/" target="_blank"><img src={ln} alt="Linkedin" className="link"/></a>
+                        <a href="#" target="_blank"><img src={git} alt="Github" className="link" id="i1"/></a>
+                        <a href="#" target="_blank"><img src={fbicon} alt="Facebook" className="link"/></a>
+                        <a href="#" target="_blank"><img src={twitter} alt="Twitter" className="link"/></a>
+                        <a href="#" target="_blank"><img src={ig} alt="Instagram" className="link"/></a>
+                        <a href="#" target="_blank"><img src={ln} alt="Linkedin" className="link"/></a>
                     </div>
                 </form>
             </div>
@@ -67,3 +67,4 @@ const Contact=()=>{
 
 
  export default Contact
+
